@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&family=Sriracha&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Laila", serif;
+    background: linear-gradient( #165DB4, #9AB6D8);
+}
+header{
+    height: 250px;
+    background: linear-gradient(#9AB6D8, #165DB4);
+}
+ul, ol{
+    list-style: none;
+}
+.barra > li{
+    float: left;
+}
+.barra li ul{
+    display: none;
+    position: absolute;
+}
+.barra li:hover > ul{
+    display: block;
+}
+header div{
+    width: 1100px;
+    height: 250px;
+    background: linear-gradient(#9AB6D8, #165DB4);
+    margin: auto;
+    padding: 1px 1px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+header div h2{
+    font-size: 35px;
+    text-align:center;
+    color: #223886;
+}
+header div nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 5px;
+    color: #223886;
+    
+}
+a:hover {
+    color: #fafa07;
+}
+main #history{
+    width: 1100px;
+    
+    margin: auto;
+    
+}
+main #history h2{
+    text-align: center;
+    font-size: 48px;
+}
+main #history h3{
+    font-size: 30px;
+    
+}
+main #history p{
+    font-size: 30px;
+    margin-top: 10px;
+}
+main p{
+    font-size: 30px;
+}
+#retro2{
+    margin-left: 90px;
+}
+#history div{
+    width: 1100px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+#history ol li{
+    font-size: 25px;
+}
+h4{
+    text-align: center;
+    font-size: 40px;
+}
+#social div{
+    width: 1100px;
+    height: 800px;
+    margin: auto;
+}
+#social div img{
+    padding: 7px 20px;
+}
+#social div .pile{
+    margin-left: 80px;
+}
+#campeones div{
+    width: 1100px;
+    margin: auto;
+    padding: 10px;
+}
+#campeones div p{
+    text-align: center;
+}
+#campeones div {
+    text-align: center;
+    font-size: 20px;
+}
+#campeones div img{
+    padding: 10px; ;
+}
+div hr{
+    width: 1100px;
+    margin: auto;
+}
+#mascampeones div{
+    width: 1100px;
+    margin: auto;
+}
+#mascampeones div img{
+    margin-left: 270px;
+}
+#mascampeones h5{
+    font-size: 30px;
+}
+
+
+
+
+
+
